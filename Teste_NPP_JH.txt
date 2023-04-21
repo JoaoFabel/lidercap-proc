@@ -1,0 +1,2 @@
+Este é um teste usando o Git com o Notepad++
+Colocando outra linha no Notepad++
