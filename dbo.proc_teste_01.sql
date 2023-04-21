@@ -2,7 +2,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-ALTER PROCEDURE [dbo].[proc_teste] (
+CREATE PROCEDURE [dbo].[proc_teste_01] (
     @Id INT
 )
 AS
