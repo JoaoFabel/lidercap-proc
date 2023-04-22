@@ -9,6 +9,7 @@ AS
 BEGIN
     DECLARE @Nome varchar(50)
            ,@Endereco varchar(200)
+           ,@UF char(2)
 
     IF EXISTS(
         SELECT Id FROM dbo.Sincronizacao WHERE Id = @Id
