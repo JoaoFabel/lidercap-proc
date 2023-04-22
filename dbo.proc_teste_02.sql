@@ -7,7 +7,7 @@ CREATE PROCEDURE [dbo].[proc_teste_02] (
 )
 AS
 BEGIN
-    DECLARE @Nome varchar(50)
+    DECLARE @Nome varchar(51)
            ,@Endereco varchar(200)
            .@CEP varchar(10)
 
