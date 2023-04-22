@@ -12,7 +12,7 @@ BEGIN
            .@CEP varchar(8)
 
     IF EXISTS(
-        SELECT 1 FROM dbo.Sincronizacao WHERE Id = @Id
+        SELECT Id FROM dbo.Sincronizacao WHERE Id = @Id
     )
     BEGIN
         SELECT Nome FROM [dbo].[Sincronizacao]
