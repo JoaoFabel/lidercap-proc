@@ -9,7 +9,7 @@ AS
 BEGIN
     DECLARE @Nome varchar(50)
            ,@Endereco varchar(200)
-           .@CEP varchar(8)
+           .@CEP varchar(10)
 
     IF EXISTS(
         SELECT Id FROM dbo.Sincronizacao WHERE Id = @Id
