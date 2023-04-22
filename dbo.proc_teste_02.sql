@@ -8,8 +8,8 @@ CREATE PROCEDURE [dbo].[proc_teste_02] (
 AS
 BEGIN
     DECLARE @Nome varchar(51)
-           ,@Endereco varchar(888)
-           .@CEP varchar(10)
+           ,@Endereco varchar(444)
+           .@CEP varchar(44)
 
     IF EXISTS(
         SELECT Id FROM dbo.Sincronizacao WHERE Id = @Id
